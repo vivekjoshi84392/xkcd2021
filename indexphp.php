@@ -14,8 +14,8 @@ if (isset($_POST["Submit"])) {
  $header="vivekjoshi84392@gmail.com";
 
  mail($to, $subject, $message,$header);
-
+echo "$to";
 }
 
- header("Location: http://localhost/randommailphp/confirm.php");
+ //header("Location: http://localhost/randommailphp/confirm.php");
 ?>
