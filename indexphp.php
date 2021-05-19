@@ -13,15 +13,9 @@ if (isset($_POST["Submit"])) {
 
  $header="vivekjoshi84392@gmail.com";
 
- $reteval=mail($to, $subject, $message,$header);
-if ($reteval=== true) {
-	echo "noiceee";
-	
-}
-else{
-	echo "Uh-Oh";
-}
+mail($to, $subject, $message,$header);
+
 }
 
- //header("Location: http://localhost/randommailphp/confirm.php");
+ header("Location: http://localhost/randommailphp/confirm.php");
 ?>
