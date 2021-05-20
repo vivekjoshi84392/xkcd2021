@@ -1,0 +1,2 @@
+We have created a simple PHP application that accepts a visitor’s email address and emails them random XKCD comics every five minutes.Our app have include email verification to avoid people using others’ email addresses by sending otp to them.
+XKCD image sent as an email attachment as well as inline image content. You can visit https://c.xkcd.com/random/comic/ programmatically to return a random comic URL and then use JSON API for details https://xkcd.com/json.html
